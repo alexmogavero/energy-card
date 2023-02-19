@@ -1039,3 +1039,5 @@ declare global {
     "hui-energy-distribution-card": HuiEnergyDistrubutionCard;
   }
 }
+
+customElements.define("new-energy-distribution-card", ContentCardExample);
