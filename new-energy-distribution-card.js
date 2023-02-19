@@ -34,7 +34,7 @@ import { EnergyDistributionCardConfig } from "../types";
 
 const CIRCLE_CIRCUMFERENCE = 238.76104;
 
-@customElement("hui-energy-distribution-card")
+@customElement("new-energy-distribution-card")
 class HuiEnergyDistrubutionCard
   extends SubscribeMixin(LitElement)
   implements LovelaceCard
@@ -1040,4 +1040,4 @@ declare global {
   }
 }
 
-customElements.define("new-energy-distribution-card", ContentCardExample);
+//customElements.define("new-energy-distribution-card", ContentCardExample);
